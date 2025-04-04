@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `userdetail` (
 --
 
 INSERT INTO `userdetail` (`id`, `userName`, `name`, `email`, `password`, `phoneNumber`) VALUES
-(54, '1', 'MohammadFarhan Girach', 'email@gmail.com', '$2b$10$evsT3C2x6PMJM9gVT/9uouE6OuohAbURNGpfmuBIxucQ6PF076xs2', '09998492373');
+(54, '1', 'User name', 'email@gmail.com', '$2b$10$evsT3C2x6PMJM9gVT/9uouE6OuohAbURNGpfmuBIxucQ6PF076xs2', '0123456789');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
