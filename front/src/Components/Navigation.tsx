@@ -33,11 +33,11 @@ const Navigation = () => {
           {<Button link={!user ? `/` : `/dashboard`}>Home</Button>}
         </ListItem>
         <ListItem>
-          <Button link={`/`}>Category</Button>
+          <Button link={`/category`}>Category</Button>
         </ListItem>
         <ListItem>
-          <Button link={`/cart`}>
-            Cart{cart && <span className="cartItem">{cart?.length}</span>} 
+          <Button link={user ? `/cart` : '/'}>
+            Cart{cart  && user && <span className="cartItem">{cart?.length}</span>} 
           </Button>
         </ListItem>
         {user && (
